@@ -77,7 +77,8 @@ namespace Lab1
 
     }
 
-    class Ant : Animal {
+    class Ant : Animal
+    {
         bool IsQueen;
     }
 

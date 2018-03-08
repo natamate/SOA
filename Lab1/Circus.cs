@@ -53,7 +53,7 @@ namespace Lab1
             return result.ToString();
         }
 
-        internal void ShowPresentation()
+        internal   void ShowPresentation()
         {
             Console.WriteLine("Prezentujemy zwierzeta: ");
             foreach (Animal a in Animals)

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lab1
 {
@@ -28,7 +24,7 @@ namespace Lab1
                 Console.WriteLine(" Jesli chcesz wyjść         >>                           9");
 
                 input = Console.ReadLine();
-                
+
                 Int32.TryParse(input, out number);
 
                 switch (number)

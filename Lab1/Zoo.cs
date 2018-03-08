@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Lab1
 {
     class Zoo : IZoo
     {
-        List<Animal> Animals= new List<Animal>();
+        List<Animal> Animals = new List<Animal>();
         string Name;
 
         public Zoo()
@@ -23,7 +21,7 @@ namespace Lab1
         public string Sounds()
         {
             StringBuilder result = new StringBuilder();
-            foreach(Animal a in Animals)
+            foreach (Animal a in Animals)
             {
                 result.Append(a.Sound());
             }
